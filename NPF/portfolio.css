@@ -1,0 +1,130 @@
+@import url(https://fonts.google.com/specimen/Open+Sans);
+html{
+    font-family:'Open Sans', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+}
+.homepage{
+    display: flex;
+    justify-content: space-between;
+    padding:0px 10px;
+    margin:0;
+}
+.homepage:hover{
+    background-color: rgb(233, 233, 233);
+}
+.homepage h3{
+    margin-left:10px;
+}
+.profile{
+    width:35px;
+    height: 35px;
+    margin-top:12px;
+    border-radius: 30px;
+}
+.left-point{
+    padding:20px 10px;
+    margin:0;
+}
+.left-point:hover{
+    background-color: rgb(233, 233, 233);
+}
+.right h3{
+    margin-left:10px;
+    margin-right: 10px;
+}
+.header-img{
+    position:absolute;
+    right:0;
+    width:110vh;
+    top:0;
+    z-index: -1;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    margin-top:10vh;
+}
+.content span{
+    margin-bottom: -8px;
+}
+.header-main{
+    width:100vh;
+}
+header{
+    width:90%;
+    margin:3% auto;
+}
+h1 {
+    font-size: 30px;
+  }
+  
+  .text_1 {
+    animation: text1;
+  }
+  
+  .text_2 {
+    animation: text2;
+  }
+
+  .text_1, .text_2{
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    animation-duration: 13s;
+    animation-timing-function: steps(15, end);
+    animation-iteration-count: infinite;
+    background-color: rgb(209, 207, 207);
+    margin:0;
+  }
+  
+  .text_1::after, .text_2::after{
+    content: "|";
+    position: absolute;
+    right: 0;
+    animation: caret infinite;
+    animation-duration: 1s;
+    animation-timing-function: steps(1, end);
+  }
+
+
+  @keyframes text2 {
+    0%, 50%, 100% {
+      width: 0;
+    }
+    
+    60%,90% {
+      width: 8em;
+    }
+  }
+  
+  @keyframes text1 {
+    0%, 50%, 100% {
+      width: 0;
+    }
+    10%, 40% {
+      width: 4.5em;
+    }
+  }
+  
+  @keyframes caret {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
