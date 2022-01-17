@@ -67,10 +67,7 @@ header{
     width:90%;
     margin:3% auto;
 }
-h1 {
-    font-size: 30px;
-  }
-  
+
   .text_1 {
     animation: text1;
   }
@@ -127,4 +124,87 @@ h1 {
     50% {
       opacity: 1;
     }
+  }
+  .about{
+    display: flex;
+    margin:0 20vh;
+    margin-top:20vh;
+    justify-content: space-between;
+    width:60%;
+
+  }
+  .left-about{
+    width:45%;
+  }
+  .socio{
+    margin:30px;
+    margin-left:0;
+  }
+  .socio:hover{
+    background-color: rgb(153, 190, 233);
+  }
+  .skills-section{
+    width:50%;
+    margin-top:13vh;
+
+  }
+
+  .backabout{
+    font-size: 12vh;
+    font-weight: bolder;
+    position: absolute;
+    color: #ddd;
+    z-index: -1;
+    top:89.5vh;
+    left:23vh;
+  }
+  .container {
+    width: 100%;
+    background-color: #ddd; 
+  }
+  
+  .skills {
+    text-align: left; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+  }
+  
+  .webdev {width: 80%; background-color: #515ed4;}
+  .aiml {width: 5%; background-color: #515ed4;} 
+  
+  .tech{
+    margin:0 20vh;
+    margin-top:15vh;
+    justify-content: space-between;
+    width:80%;
+  }
+  .techback{
+    font-size: 12vh;
+    font-weight: bolder;
+    position: absolute;
+    color: #ddd;
+    z-index: -1;
+    top:148.5vh;
+    left:23vh;
+  }
+  .logo{
+    width:80px;
+    height: 70px;
+    margin:20px;
+    margin-right: 25px;
+  }
+  .projects{
+    margin:0 20vh;
+    margin-top:15vh;
+    justify-content: space-between;
+    width:80%;
+  }
+  .projectback{
+    font-size: 12vh;
+    font-weight: bolder;
+    position: absolute;
+    color: #ddd;
+    z-index: -1;
+    top:191.4vh;
+    left:24vh;
   }

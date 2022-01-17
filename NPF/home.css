@@ -45,11 +45,14 @@ body hr{
     display:flex;
     justify-content: center;
 }
-.social-handles img{
+.social-handles i{
     width:30px;
     height:30px;
     margin:10px;
-    
+    color: black;
+}
+.social-handles i:hover{
+    color:blue;
 }
 .buttons{
     margin-top:10px;
@@ -60,9 +63,13 @@ body hr{
     margin-left:5px;
     margin-right: 5px;
     font-size: 2.3vh;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     border: none;
     border:solid 1px rgb(202, 202, 202);
     padding:7px 15px;
-    color:rgb(109, 106, 106);
+    color:white;
+    border-radius: 5px;
+}
+.buttons button:hover{
+    background-color: blue;
 }
