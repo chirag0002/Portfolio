@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="portfolio.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <title>Document</title>
+    <title>Chirag Varshney</title>
 </head>
 <body>
-    <nav>
+    <nav id="NAV">
         <div class="left">
             <a style="text-decoration: none; color:black;" href="/NPF/Home.html">
             <div class="homepage">
@@ -21,9 +21,9 @@
             <h3 class="left-point">Resume</h3>
         </div>
         <div class="right">
-            <h3>About</h3>
-            <h3>Projects</h3>
-            <h3>Contacts</h3>
+            <a href="#ABOUT"><h3>About</h3></a>
+            <a href="#PROJECT"><h3>Projects</h3></a>
+            <a href="#CONTACT"><h3>Contact</h3></a>
         </div>
     </nav>
     <header>
@@ -41,19 +41,19 @@
         </div>
     </header>
     <main>
-        <div class="about">
+        <div id="ABOUT" class="about">
             <div class="left-about">
                 <h1 style="font-size: 6.5vh; font-weight: 100;">Little about me</h1>
-                <h1 id="about" class="backabout">About</h1>
+                <h1 id="about" class="backabout">ABOUT</h1>
                 <h2>Hello !</h2>
                 <p>My name is Chirag Varshney and I'm a Web developer, an AI-ML enthusiast, a Python Programmer and a passionate learner to learn new technology by exploring and by building them.</p>
-                <i class="fa fa-github fa-2x socio"></i>
-                <i class="fa fa-linkedin fa-2x socio"></i>
-                <i class="fa fa-instagram fa-2x socio"></i>
-                <i class="fa fa-twitter fa-2x socio"></i>
+                <a target="blank" href="https://github.com/chirag0002"><i class="fa fa-github fa-2x socio"></i></a>
+                <a target="blank" href="https://www.linkedin.com/in/chirag-varshney-864917202"><i class="fa fa-linkedin fa-2x socio"></i></a>
+                <a target="blank" href="https://www.instagram.com/_chirag_varshney_/"><i class="fa fa-instagram fa-2x socio"></i></a>
+                <a target="blank" href="https://twitter.com/ChiragV0101?t=JttZTqzDXamIjso3JyfBPA&s=09"><i class="fa fa-twitter fa-2x socio"></i></a>
             </div>
             <div class="skills-section">
-                <h2>Skills</h2>
+                <h2>My Skills</h2>
                 <p>Web Development</p>
                 <div class="container">
                     <div class="skills webdev"></div>
@@ -66,11 +66,11 @@
         </div>
         <div class="tech">
             <h1 style="font-size: 6.5vh; font-weight: 100;">Tech I'm fimiliar with</h1>
-            <h1 class="techback">Tech Stack</h1>
+            <h1 class="techback">TECH STACK</h1>
             <div class="logos">
-                <img class="logo" src="Images/C.png" alt="c">
-                <img class="logo" src="Images/python.png" alt="python">
-                <img class="logo" src="Images/html.png" alt="html">
+                <img class="logo" src="Images/C.png" alt="">
+                <img class="logo" src="Images/python.png" alt="">
+                <img class="logo" src="Images/html.png" alt="">
                 <img class="logo" src="Images/css.png" alt="">
                 <img class="logo" src="Images/js.png" alt="">
                 <img class="logo" src="Images/react.png" alt="">
@@ -79,10 +79,77 @@
                 <img class="logo" src="Images/cloud.png" alt="">
             </div>
         </div>
-        <div class="projects">
+        <div id="PROJECT" class="projects">
             <h1 style="font-size: 6.5vh; font-weight: 100;">Some of my projects</h1>
-            <h1 class="projectback">Projects</h1>
+            <h1 class="projectback">PROJECTS</h1>
+            <div class="project">
+                <a href="">
+                    <img class="project_img" src="Images/career_selector.png" alt="">
+                    <div class="project_content">
+                        <h1>Zomato - Clone</h1>
+                        <p>It is a project based on cloning of Zomato food-ordering website, as it is seen inspiring to built a complex website like Zomato with the use of simple HTML & Css.</p>
+                        <i class="fa fa-github fa-2x"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="project">
+                <a href="">
+                    <img class="project_img" src="Images/career_selector.png" alt="">
+                    <div class="project_content">
+                        <h1>Netflix - Clone</h1>
+                        <p>It is a project based on cloning of Netflix streaming website, as it is seen inspiring to built a complex website like netflix with the use of simple HTML & Css and Java script.</p>
+                        <i class="fa fa-github fa-2x"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="project">
+                <a href="">
+                    <img class="project_img" src="Images/career_selector.png" alt="">
+                    <div class="project_content">
+                        <h1>Career Slector</h1>
+                        <p>It is a platform at which all users/students can access the data and imformation so they can decide the career of their choice for their betterment of future.</p>
+                        <i class="fa fa-github fa-2x"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="project">
+                <a href="">
+                    <img class="project_img" src="Images/career_selector.png" alt="">
+                    <div class="project_content">
+                        <h1>TECH-AHEAD</h1>
+                        <p>It is a platform at which users can access the data and imformation so they can travell/explore through different trending technologies for their understanding.</p>
+                        <i class="fa fa-github fa-2x"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="CONTACT" class="connect">
+            <h1 style="font-size: 6.5vh; font-weight: 100;">Let's connect</h1>
+            <h1 class="connectback">CONTACT</h1>
+            <div style="display: flex; justify-content: space-between;">
+                <img class="connect_img" src="Images/connect.svg" alt="">
+                <div class="contact_matter">
+                    <h1 style="margin-bottom: 0; font-size: 5vh; font-weight: 200;">Want to connect?</h1>
+                    <h1 style="margin-top:10px; font-weight: 100;">Let's have a talk !</h1>
+                    <h4 style="font-size: 3vh; font-weight: 100;">"Alone we can do so little, together we can do so much.”</h4>
+                    <a targt="blank" href="mailto:varshneychirag34@gmail.com? subject=subject text"><i class="fa fa-envelope fa-3x" style="margin-left:20%; margin-right:25px;"></i></a>
+                    <a targt="blank" href="https://github.com/chirag0002"><i class="fa fa-github fa-2x"></i></a>
+                    <a targt="blank" href="https://www.linkedin.com/in/chirag-varshney-864917202"><i class="fa fa-linkedin fa-2x"></i></a>
+                    <a targt="blank" href="https://twitter.com/ChiragV0101?t=JttZTqzDXamIjso3JyfBPA&s=09"><i class="fa fa-twitter fa-2x"></i></a>
+                    <a targt="blank" href="https://www.instagram.com/_chirag_varshney_/"><i class="fa fa-instagram fa-2x"></i></a>
+                </div>
+            </div>
         </div>
     </main>
+    <footer>
+        <h4 style="margin-bottom: -45vh; margin-top:30vh; margin-left:5vh;">Crafted with 
+            <span style="color: red; font-size: large;">♥</span> 
+            by Chirag Varshney
+        </h4>
+        <img src="Images/footer.svg" style="z-index: -1; position: absolute;" alt="">
+        <a href="#NAV">
+            <i style="position: absolute; right:3vh; top:480vh; color: blue;" class="fa fa-arrow-up fa-2x"></i>
+        </a>
+    </footer>
 </body>
 </html>

@@ -1,6 +1,7 @@
 @import url(https://fonts.google.com/specimen/Open+Sans);
 html{
     font-family:'Open Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 nav{
     display: flex;
@@ -13,6 +14,10 @@ nav{
 .right{
     display: flex;
     justify-content: space-between;
+}
+.right a{
+  text-decoration: none;
+  color: black;
 }
 .homepage{
     display: flex;
@@ -55,7 +60,7 @@ nav{
     justify-content: space-between;
 }
 .content{
-    margin-top:10vh;
+    margin-top:20vh;
 }
 .content span{
     margin-bottom: -8px;
@@ -139,9 +144,10 @@ header{
   .socio{
     margin:30px;
     margin-left:0;
+    color: blue;
   }
   .socio:hover{
-   color:blue;
+   transform: scale(1.1);
   }
   .skills-section{
     width:50%;
@@ -150,12 +156,12 @@ header{
   }
 
   .backabout{
-    font-size: 12vh;
+    font-size: 11vh;
     font-weight: bolder;
     position: absolute;
     color: #ddd;
     z-index: -1;
-    top:89.5vh;
+    top:92.3vh;
     left:23vh;
   }
   .container {
@@ -179,13 +185,13 @@ header{
     width:80%;
   }
   .techback{
-    font-size: 12vh;
+    font-size: 11vh;
     font-weight: bolder;
     position: absolute;
     color: #ddd;
     z-index: -1;
-    top:148.5vh;
-    left:23vh;
+    top:150.6vh;
+    left:24vh;
   }
   .logo{
     width:80px;
@@ -200,11 +206,57 @@ header{
     width:80%;
   }
   .projectback{
-    font-size: 12vh;
+    font-size: 11vh;
     font-weight: bolder;
     position: absolute;
     color: #ddd;
     z-index: -2;
-    top:191.4vh;
+    top:193.4vh;
     left:24vh;
   }
+  .project{
+    display:inline-block;
+    width:70vh;
+    height: fit-content;
+    background-color: rgb(54, 53, 51);
+    margin-top:10vh;
+    margin-right:10vh;
+  }
+  .project a{
+    text-decoration: none;
+    color: white;
+  }
+  .project_content{
+    padding:10px;
+  }
+  .project_img{
+    width: 70vh;
+    height:50vh;
+  }
+  .connect{
+    margin:0 20vh;
+    margin-top:15vh;
+    justify-content: space-between;
+    width:70%;
+  }
+  .connectback{
+    font-size: 11vh;
+    font-weight: bolder;
+    position: absolute;
+    color: #ddd;
+    z-index: -2;
+    top:398vh;
+    left:24vh;
+  }
+  .connect_img{
+    width:70vh;
+  }
+  .contact_matter{
+    margin-top:40px;
+  }
+  .contact_matter i{
+    margin-top:40px;
+    margin-right:15px;
+    color:blue;
+  }
+  
