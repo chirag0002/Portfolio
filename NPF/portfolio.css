@@ -141,7 +141,7 @@ header{
     margin-left:0;
   }
   .socio:hover{
-    background-color: rgb(153, 190, 233);
+   color:blue;
   }
   .skills-section{
     width:50%;
