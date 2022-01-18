@@ -50,7 +50,7 @@ nav{
 }
 .header-img{
     position:absolute;
-    right:0;
+    right:5px;
     width:110vh;
     top:0;
     z-index: -1;
@@ -194,8 +194,8 @@ header{
     left:24vh;
   }
   .logo{
-    width:80px;
-    height: 70px;
+    width:15vh;
+    height: 13vh;
     margin:20px;
     margin-right: 25px;
   }
@@ -211,7 +211,7 @@ header{
     position: absolute;
     color: #ddd;
     z-index: -2;
-    top:193.4vh;
+    top:216vh;
     left:24vh;
   }
   .project{
@@ -245,7 +245,7 @@ header{
     position: absolute;
     color: #ddd;
     z-index: -2;
-    top:398vh;
+    top:424.8vh;
     left:24vh;
   }
   .connect_img{
@@ -259,4 +259,12 @@ header{
     margin-right:15px;
     color:blue;
   }
-  
+  .logo-p{
+    display:inline-block;
+    width:6vh;
+    height: 5vh;
+    margin-bottom:-7px;
+  }
+  .project_content h1:hover, i:hover{
+    color: blue;
+  }
