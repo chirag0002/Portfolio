@@ -2,12 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import Zomato from "../../../src/Assets/zomato.png";
+import Netflix from "../../../src/Assets/netflix.png";
+import Career from "../../../src/Assets/career_selector.png";
+import Tech from "../../../src/Assets/tech_ahead.png";
+import Parya from "../../../src/Assets/Paryavarn.jpeg";
+import Krypt from "../../../src/Assets/krypt.png";
+import Event from "../../Assets/Event.png";
 
 function Projects() {
   return (
@@ -23,68 +24,77 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={Event}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Event-x3"
+              description="A event scheduler dApp on which you can schedule an event, RSVP an event, except attendees need to deposit ETH to RSVP and will get it back upon checking in at the event. In this project I have used React, Solidity, Web3, Truffle, Ganache, Metamask, IPFS, and Infura."
+              ghLink="https://github.com/chirag0002/Event-X3"
+              // demoLink="polygon-buidl-it-gdg9ntl.spheron.app"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Krypt}
+              isBlog={false}
+              title="Krypt"
+              description="A DApp to transfer MATIC from one account to another, and store them as a post. In this every transaction is stored as a meme post containing details about time, date and an message for sending it to another user. I have used React.js, Solidity, Web3, Hardhat, IPFS, Polygon and Metamask for this project."
+              ghLink="https://github.com/chirag0002/Polygon_Buidl_It"
+              demoLink="polygon-buidl-it-gdg9ntl.spheron.app"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={Parya}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Paryavarn"
+              description="Deforestation is one of the most severe and common problems nowadays. For this, Paryavarn is a fully fledge solution as our team “Super contributors” comes with an amazing idea with calculating tree cover and detecting the live location of user’s contains detailed information about that particular place tree cover so that we came to know that the places which are not well occupied with trees."
+              ghLink="https://github.com/chirag0002/Paryavarn"
+              demoLink="paryavarn-yyxbur.spheron.app"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={Tech}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Tech-Ahead"
+              description="It is a platform at which users can access the data and imformation so they can travell/explore through different trending technologies for their understanding. This website is made by using JavaScript, React.js and CSS3."
+              ghLink="https://github.com/SuperAayush/TECH-AHEAD"
+              demoLink="tech-ahead.netlify.app/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={Career}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Career Selector"
+              description="It is a platform at which all users/students can access the dataand information so they can decide the career of their choice for their betterment of future. This website is made by using JavaScript, React.js and CSS3."
+              ghLink="https://github.com/chirag0002/career_selector"
+              // demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={Netflix}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Netflix Clone"
+              description="It is a Clone Website of Netflix Website. This is our first project on which we have tried to implement our learning. This Netflix Clone is made by using HTML5 & CSS3."
+              ghLink="https://github.com/chirag0002/Netflix"
+             demoLink="netflixxclonee.netlify.app/" 
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={Zomato}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Zomato Clone"
+              description="It is a Clone Website of Zomato Website. This is our first project on which we have tried to implement our learning. This Zomato Clone is made by using HTML5 & CSS3."
+              ghLink="https://github.com/SuperAayush/Zomato-Clone"
+              demoLink="superaayush.github.io/Zomato-Clone/"
             />
           </Col>
         </Row>
