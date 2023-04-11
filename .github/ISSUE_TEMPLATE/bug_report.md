@@ -4,7 +4,7 @@ about: Tell us about a problem you are experiencing
 
 ---
 
-/kind bug
+**This is bug or suggestion for improvement request.**
 
 <!-- This is an improvement needed section where you can report any bugs or suggestions for improvements, etc. -->
 

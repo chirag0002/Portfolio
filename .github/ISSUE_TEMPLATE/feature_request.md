@@ -4,7 +4,7 @@ about: Suggest an idea for this project
 
 ---
 
-/kind feature
+**This is new feature/enhancement request.**
 
 <!-- This section is for requesting new features/enhancements. -->
 
